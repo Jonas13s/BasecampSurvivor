@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f2f1143ca2cfc4992cdaf5cba0659e, type: 3}
+  m_Name: PukeFloor
+  m_EditorClassIdentifier: 
+  title: Puke on the Floor
+  story: You came to School despite the tiredness and the sickness in the stomach.
+    You were able to write atleast 20 lines of code and read an article explaining
+    the history of C a little bit, until a friend from the party noticed you and
+    came to ask how you were, since, you know, you PARTIED LIKE AN ANIMAL. At that
+    unfortunate moment, you turn around and retch, releasing a bad, smelly puke on
+    the Floor, feeling embarassed. Your friend is in shock and awe, but helps you
+    clean the stuff. Bocal will hear of this, you will be possibly punished for causing
+    the mess. Confess to the Bocal what happened or try to let it slide?
+  choiceOptions: 0900000005000000
+  startsInDeck: 0
+  followUpEventChoiceA: {fileID: 0}
+  followUpEventChoiceB: {fileID: 11400000, guid: 9356ee30dfa12a0489694742d9aef838, type: 2}
+  followUpEventChoiceC: {fileID: 0}
