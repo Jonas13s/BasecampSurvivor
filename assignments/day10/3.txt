@@ -1,0 +1,3 @@
+List_size
+
+Create a function that can determine how big this list is anyway?

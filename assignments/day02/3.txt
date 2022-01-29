@@ -1,0 +1,3 @@
+Is_negative
+
+Make the computer identify negative stuff, but try not to make it too depressed.

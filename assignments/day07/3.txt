@@ -1,0 +1,3 @@
+Ultimate_range
+
+Using a function, find the shooting range with the absolutely best guns.

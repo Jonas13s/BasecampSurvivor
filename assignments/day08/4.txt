@@ -1,0 +1,3 @@
+Abs
+
+Using a function, create the perfect fake abs and draw them on with a crayon.

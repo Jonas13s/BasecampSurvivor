@@ -1,0 +1,3 @@
+Str_is_alpha
+
+Using a function, prove your aplha status based on your strength stat.

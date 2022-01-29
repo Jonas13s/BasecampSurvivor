@@ -1,0 +1,3 @@
+Atoi
+
+Create a function to assist you against the mischief of datatype pirates.

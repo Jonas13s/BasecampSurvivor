@@ -1,0 +1,3 @@
+Putchar
+
+Make you computer put new characters into a scene and roll for initiative.

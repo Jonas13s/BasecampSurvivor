@@ -1,0 +1,3 @@
+List_clear
+
+Create a function that turns any list see through. Out of sight, out of mind.

@@ -1,0 +1,3 @@
+Strcpy
+
+Create a function to copy the strength stat from a more powerful character.

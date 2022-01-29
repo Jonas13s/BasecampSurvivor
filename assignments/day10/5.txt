@@ -1,0 +1,3 @@
+List_push_params
+
+Create a function that forces parallel ambulances into any list.

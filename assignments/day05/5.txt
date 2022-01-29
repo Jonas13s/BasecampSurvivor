@@ -1,0 +1,3 @@
+Strcmp
+
+Make your computer compare two string and tell you which one is better.

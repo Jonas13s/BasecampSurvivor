@@ -1,0 +1,3 @@
+Strlowcase
+
+Using a function, can you make a suitcase that lowers your strength stat?

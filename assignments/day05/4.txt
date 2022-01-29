@@ -1,0 +1,3 @@
+Strstr
+
+Create a function to unravel this ball of strings. And keep that cat away!

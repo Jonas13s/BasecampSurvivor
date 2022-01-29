@@ -1,0 +1,3 @@
+Is_sort
+
+Create a program that can determine whether stuff is sorted by any logic.

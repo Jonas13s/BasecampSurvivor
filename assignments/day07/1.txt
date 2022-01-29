@@ -1,0 +1,3 @@
+Strdump
+
+Using a function, find out the most efficient way to dump your string. no texts.

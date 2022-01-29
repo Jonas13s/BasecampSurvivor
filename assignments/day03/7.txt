@@ -1,0 +1,3 @@
+Strlen
+
+Get the computer to tell you how is this string. Make it reveal its secrets.

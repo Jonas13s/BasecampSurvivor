@@ -1,0 +1,3 @@
+Str_is_printable
+
+Convince your computer that it should be able to print this string.

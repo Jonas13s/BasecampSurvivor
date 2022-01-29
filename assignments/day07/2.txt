@@ -1,0 +1,3 @@
+Range
+
+Using a function, find the closest shooting range.

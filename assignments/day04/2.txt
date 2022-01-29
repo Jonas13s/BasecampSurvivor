@@ -1,0 +1,3 @@
+Recursive_factorial
+
+Make facts lead to new facts. Based in outdated facts, new alternative facts.

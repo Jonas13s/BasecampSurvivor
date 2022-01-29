@@ -1,0 +1,3 @@
+Strupcase
+
+Using a function, make a suitcase that increases you strength stat.

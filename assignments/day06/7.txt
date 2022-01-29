@@ -1,0 +1,3 @@
+Strcapital
+
+Using a function, bring your string to Hollywood, capital of the stars.

@@ -1,0 +1,3 @@
+Str_is_low
+
+Make your computer give you alerts if you strenght stat is dropping.

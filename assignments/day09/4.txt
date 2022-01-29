@@ -1,0 +1,3 @@
+Any
+
+Create a program that can grant one one wish to a stranger.

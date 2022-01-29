@@ -1,0 +1,3 @@
+Foreach
+
+Using a function make sure that the candies get divided equally. One for each.

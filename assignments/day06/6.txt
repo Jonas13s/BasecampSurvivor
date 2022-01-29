@@ -1,0 +1,3 @@
+Sort_ambs
+
+Using a function, sort a list of ambulances by cuteness.

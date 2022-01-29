@@ -1,0 +1,3 @@
+Count_if
+
+Create a program that can evaluate a situation and determine: Does it count?
