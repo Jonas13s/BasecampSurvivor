@@ -1,0 +1,3 @@
+Count files
+
+How many files do you actually have?
