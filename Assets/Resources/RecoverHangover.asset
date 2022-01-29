@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f2f1143ca2cfc4992cdaf5cba0659e, type: 3}
+  m_Name: RecoverHangover
+  m_EditorClassIdentifier: 
+  title: Recover from Hangover
+  story: Shit, that was hard... You partied until 4 AM and now it's blurry and embarassing
+    and sick but it was fun! You think it was! If you recall correctly. What now,
+    go to School feeling pukey and risking further embarassment, or just chill at
+    home, recovering in peace?
+  choiceOptions: 0200000003000000
+  startsInDeck: 0
+  followUpEventChoiceA: {fileID: 11400000, guid: 390b35dbeb027aa46adb7aec7294784c, type: 2}
+  followUpEventChoiceB: {fileID: 0}
+  followUpEventChoiceC: {fileID: 0}
