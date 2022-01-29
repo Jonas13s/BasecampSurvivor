@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12ea577581eae549beaee3ab1bb5df0, type: 3}
+  m_Name: day6
+  m_EditorClassIdentifier: 
+  title:
+  - Putchar
+  - Lib_creator
+  - 'Print_program_name '
+  - 'Print_params '
+  - 'Print_rev_params '
+  - Sort_ambs
+  - Strcapital
+  number: 6
+  description:
+  - 'Make you computer put new characters into a scene and roll for initiative. '
+  - 'Using a function, create new libraries and apply for the correct permits. '
+  - 'Make the computer tell you what it''s actually doing. Make sure it''s not lying. '
+  - 'Using a function, make the computer print out pictures of parallel ambulances. '
+  - 'Make the computer print out pictures of parallel ambulances reversing. '
+  - 'Using a function, sort a list of ambulances by cuteness. '
+  - 'Using a function, bring your string to Hollywood, capital of the stars. '
+  max: 7
+  NextDay: {fileID: 11400000, guid: 2a6f81c29b6ff5f4db99884af5b16084, type: 2}

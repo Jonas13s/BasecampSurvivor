@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12ea577581eae549beaee3ab1bb5df0, type: 3}
+  m_Name: day3
+  m_EditorClassIdentifier: 
+  title:
+  - ft_ft
+  - ft_ultimate_ft
+  - ft_swap
+  - Div_feat_Mod
+  - Ultimate_Div_feat:Mod!
+  - Put_the_string
+  - Strlen
+  - String_reversal
+  number: 3
+  description:
+  - Yo dawg, we heard you like ft's. So we put an ft in yo ft!
+  - One ft to find them. One ft to rule them all, and in the darkness bind them.
+  - Make your computer swap things around! And let the princess be in this castle.
+  - Division and modulo enter the field, can you make them work together?
+  - They're back! Hungrier than ever! Can you make them overcome their differences?
+  - Make the computer put the string on the screen. No, the screen. THE SCREEN!
+  - Get the computer to tell you how is this string. Make it reveal its secrets.
+  - Get the computer to make this string go in reverse.
+  max: 8
+  NextDay: {fileID: 11400000, guid: 104e0b273363f7b408f1fd5aed6dd2af, type: 2}

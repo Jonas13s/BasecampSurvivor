@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12ea577581eae549beaee3ab1bb5df0, type: 3}
+  m_Name: day4
+  m_EditorClassIdentifier: 
+  title:
+  - Iterative_facts
+  - Recursive_factorial
+  - Iterative_power
+  - Recursive_power
+  - Feat_Fibonacci
+  - Sqrt
+  - Is_prime
+  number: 4
+  description:
+  - Make facts tell about facts, but based on facts.
+  - Make facts lead to new facts. Based in outdated facts, new alternative facts.
+  - 'Power begets power, like the lineage of a noble house. Now do it with math. '
+  - 'With great power comes great responsibility. Some power is born different. '
+  - 'Make your computer create beautiful seashell curves. But with math. And numbers. '
+  - 'Make your computer sqrt all over the screen. In a very mathy, mathy way. '
+  - 'The decepticons have come to you in dire need. Help them find Optimus Prime! '
+  max: 7
+  NextDay: {fileID: 11400000, guid: 28b48c91391110347bfb7acf529973bc, type: 2}

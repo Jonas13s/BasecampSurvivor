@@ -27,6 +27,10 @@ public class Survivor : MonoBehaviour
     public int Work;
     public int Hour;
     public int Day;
+    public int ProjectCount;
+
+
+    public ProjectTable ProjectScript;
 
     public void Start()
     {
@@ -39,6 +43,8 @@ public class Survivor : MonoBehaviour
         Work = 0;
         Hour = 8;
         Day = 0;
+        ProjectCount = 1;
+        ProjectScript.Spawn(0, false);
     }
 
     // Update is called once per frame
@@ -54,6 +60,8 @@ public class Survivor : MonoBehaviour
         {
             Hour = 0;
             Day++;
+            ProjectCount = 1;
+            ProjectScript.Spawn(ProjectCount, true);
         }
         if (Day <= 9)
             DayText.text = "2022-01-" + "0" + Day;
@@ -102,6 +110,8 @@ public class Survivor : MonoBehaviour
                 Hungry -= 5;
                 Energy -= 15;
                 Hour++;
+                ProjectScript.Spawn(ProjectCount, false);
+                ProjectCount++;
             }
         }
     }

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12ea577581eae549beaee3ab1bb5df0, type: 3}
+  m_Name: day1
+  m_EditorClassIdentifier: 
+  title:
+  - Print Groups
+  - Find SH
+  - Count files
+  - MAC
+  - Marvin
+  - Skip
+  - Dwassaaap
+  number: 1
+  description:
+  - 'Make the computer tell you what groups it belongs to. '
+  - Make the computer find your stuff, quietly.
+  - How many files do you actually have?
+  - Find your computers MAC adress and try to order burgers.
+  - 'Marvin the paranoid android has a very hard to pronounce name. Can you do it? '
+  - Skip over the yellow lines with p in then.
+  - Command the computer to find the broest of bros.
+  max: 7
+  NextDay: {fileID: 11400000, guid: e3a436dd65ed68147a49c8b25fbf6209, type: 2}

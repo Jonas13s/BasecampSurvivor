@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12ea577581eae549beaee3ab1bb5df0, type: 3}
+  m_Name: day2
+  m_EditorClassIdentifier: 
+  title:
+  - Print_alphabet
+  - Print_reverse_alphabet
+  - Is_negative
+  - Print_numbers
+  - Print_comb
+  - Print_2_comb
+  - Put_number
+  number: 2
+  description:
+  - Get the computer to recite the ABC's.
+  - Get the computer to recite the ABC's... Backwards!
+  - Make the computer identify negative stuff, but try not to make it too depressed.
+  - Teach the computer to count. Make it show its work or it doesn't count.
+  - make the computer draw a picture of a comb.
+  - The sequel to Print_comb! Now you must to comb you hair... with a printer!
+  - Make the computer put a number on the screen. Do you know what numbers this is?
+  max: 7
+  NextDay: {fileID: 11400000, guid: 8ff83e9f34461ab43b41af216b3ca4da, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12ea577581eae549beaee3ab1bb5df0, type: 3}
+  m_Name: day9
+  m_EditorClassIdentifier: 
+  title:
+  - Make-a-file
+  - Foreach
+  - Map
+  - Any
+  - Count_if
+  - Is_sort
+  - Do_op
+  number: 9
+  description:
+  - 'Make a file that can make a file that can make a file that can make a file... '
+  - 'Using a function make sure that the candies get divided equally. One for each. '
+  - Using a function, give yourself a heads up display with a live map.
+  - Create a program that can grant one one wish to a stranger.
+  - 'Create a program that can evaluate a situation and determine: Does it count?'
+  - Create a program that can determine whether stuff is sorted by any logic.
+  - Using a program, re-create the 90's band Hanson and get them to perfom MMMbop.
+  max: 7
+  NextDay: {fileID: 11400000, guid: 942dec1d4c2aaae49b6d864e5e5eeec9, type: 2}
