@@ -19,58 +19,39 @@ public class Survivor : MonoBehaviour
     public float NotificationtimeRemaining = 0;
     public bool NotificationBar = false;
 
-    public int Energy;
-    public int Hungry;
-    public int Sleep;
-    public int Drive;
-    public int SocialL;
-    public int Work;
-    public int Hour;
-    public int Day;
-    public int ProjectCount;
-
-
     public ProjectTable ProjectScript;
+    public Bars BarsData;
 
     public void Start()
     {
         TurnCanvas(NotificationGroup, false);
-        Hungry = 100;
-        Sleep = 100;
-        Drive = 100;
-        SocialL = 100;
-        Energy = 100;
-        Work = 0;
-        Hour = 8;
-        Day = 0;
-        ProjectCount = 1;
         ProjectScript.Spawn(0, false);
     }
 
     // Update is called once per frame
     public void Update()
     {
-        HungryText.text = "Hungry: " + Hungry + "/100";
-        SleepText.text = "Sleep: " + Sleep + "/100";
-        DriveText.text = "Drive: " + Drive + "/100";
-        SocialLText.text = "Social Life: " + SocialL + "/100";
-        WorkText.text = "Work done: " + Work + "/100";
-        EnergyText.text = "Energy: " + Energy + "/100";
-        if (Hour >= 24)
+        HungryText.text = "Hungry: " + BarsData.Hungry + "/100";
+        SleepText.text = "Sleep: " + BarsData.Sleep + "/100";
+        DriveText.text = "Drive: " + BarsData.Drive + "/100";
+        SocialLText.text = "Social Life: " + BarsData.Social + "/100";
+        WorkText.text = "Work done: " + BarsData.Work + "/100";
+        EnergyText.text = "Energy: " + BarsData.Energy + "/100";
+        if (BarsData.Hour >= 24)
         {
-            Hour = 0;
-            Day++;
-            ProjectCount = 1;
-            ProjectScript.Spawn(ProjectCount, true);
+            BarsData.Hour = 0;
+            BarsData.Day++;
+            BarsData.ProjectCount = 1;
+            ProjectScript.Spawn(BarsData.ProjectCount, true);
         }
-        if (Day <= 9)
-            DayText.text = "2022-01-" + "0" + Day;
+        if (BarsData.Day <= 9)
+            DayText.text = "2022-01-" + "0" + BarsData.Day;
          else
-              DayText.text = "2022-01-" + Day;
-        if (Hour < 10)
-            TimeText.text = "0" + Hour + ":" + "00";
-        else if (Hour >= 10)
-            TimeText.text = Hour + ":" + "00";
+              DayText.text = "2022-01-" + BarsData.Day;
+        if (BarsData.Hour < 10)
+            TimeText.text = "0" + BarsData.Hour + ":" + "00";
+        else if (BarsData.Hour >= 10)
+            TimeText.text = BarsData.Hour + ":" + "00";
         //notification bar//
         if (NotificationBar)
         {
@@ -102,6 +83,8 @@ public class Survivor : MonoBehaviour
     }
     public void ClickWork()
     {
+        BarsData.AddDelta();
+        /*
         if (Energy >= 15)
         {
             if (Work + 10 <= 100)
@@ -113,14 +96,14 @@ public class Survivor : MonoBehaviour
                 ProjectScript.Spawn(ProjectCount, false);
                 ProjectCount++;
             }
-        }
+        }*/
     }
     public void ClickSleep()
     {
         SleepChoose(1);
     }
     public void SleepChoose(int a)
-    {
+    {/*
         if (a == 1)
         {
             Hour += 8;
@@ -132,7 +115,7 @@ public class Survivor : MonoBehaviour
                 Hungry = 0;
                 NotificationPopUp("You slept for 8 hours and got really hungry, eat before it affects you health", 10);
             }
-        }
+        }*/
     }
     public void NotificationPopUp(string s, int timeS)
     {

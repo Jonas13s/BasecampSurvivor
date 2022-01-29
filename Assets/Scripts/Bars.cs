@@ -37,6 +37,7 @@ public class Bars : MonoBehaviour
     public int Work;
     public int Hour;
     public int Day;
+    public int ProjectCount;
 
     public BarDelta lastDelta;
 
@@ -67,6 +68,7 @@ public class Bars : MonoBehaviour
         Work = 0;
         Hour = 8;
         Day = 0;
+        ProjectCount = 1;
     }
 
     public string GetStatusString()
