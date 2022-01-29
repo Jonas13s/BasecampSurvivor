@@ -10,15 +10,15 @@ public class MainManager : MonoBehaviour
 
     // Singleton
     public static MainManager Instance;
-    
-    // Reference to other Singletons
-    //private EventDeck EventDeckRef;
 
     // Choice Buttons
     public Button buttonA;
     public Button buttonB;
     public Button buttonC;
     public Button quitButton;
+
+    public TextMeshProUGUI statusBar;
+    public TextMeshProUGUI deltaBar;
 
     public EventCard currentEvent;
 
@@ -75,6 +75,7 @@ public class MainManager : MonoBehaviour
         {
             Debug.Log("HandleChoice(" + choice + ") called, option was " + option.ToString() + ", redirecting to ResetEventDeck!");
             EventDeck.Instance.ResetEventDeck();
+            Bars.Instance.ResetValues();
             DisplayNextEvent();
             return;
         }
@@ -89,17 +90,21 @@ public class MainManager : MonoBehaviour
         // Add followUpEvent to deckOfEvents if set
         if (currentEvent.dataRef != null)
         {
+            BarDelta resultDelta = new BarDelta();
             EventData followUpEvent = null;
             switch (choice)
             {
                 case 0:
                     followUpEvent = currentEvent.dataRef.followUpEventChoiceA;
+                    resultDelta = currentEvent.dataRef.choiceDeltaA;
                     break;
                 case 1:
                     followUpEvent = currentEvent.dataRef.followUpEventChoiceB;
+                    resultDelta = currentEvent.dataRef.choiceDeltaB;
                     break;
                 case 2:
                     followUpEvent = currentEvent.dataRef.followUpEventChoiceC;
+                    resultDelta = currentEvent.dataRef.choiceDeltaC;
                     break;
             }
             if (followUpEvent != null)
@@ -107,7 +112,10 @@ public class MainManager : MonoBehaviour
                 EventDeck.Instance.deckOfEvents.Add(new EventCard(false, followUpEvent.title, followUpEvent.story, followUpEvent.choiceOptions, followUpEvent));
                 Debug.Log("followUpEvent added to deckOfEvents!");
             }
-        }        
+            Bars.Instance.lastDelta = resultDelta;
+            Bars.Instance.AddDelta();                        
+        }
+                
         DisplayNextEvent();
     }
 
@@ -185,5 +193,8 @@ public class MainManager : MonoBehaviour
             }
             AdjustButtonsToFormationOfSize(paramEvent.eventChoiceOptions.Length);
         }
+
+        statusBar.text = Bars.Instance.GetStatusString();
+        deltaBar.text = Bars.Instance.GetDeltaString();
     }
 }

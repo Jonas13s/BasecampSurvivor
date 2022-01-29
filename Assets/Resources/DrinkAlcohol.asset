@@ -23,3 +23,45 @@ MonoBehaviour:
   followUpEventChoiceA: {fileID: 0}
   followUpEventChoiceB: {fileID: 11400000, guid: f9d1ac4953ef4014fbf50e9e90e685e9, type: 2}
   followUpEventChoiceC: {fileID: 0}
+  choiceDeltaA:
+    Hour: 0
+    Energy: 0
+    EnergyRandom: 0
+    Hungry: 0
+    HungryRandom: 0
+    Sleep: 0
+    SleepRandom: 0
+    Drive: 0
+    DriveRandom: 0
+    Social: 0
+    SocialRandom: 0
+    Work: 0
+    WorkRandom: 0
+  choiceDeltaB:
+    Hour: 6
+    Energy: 0
+    EnergyRandom: 0
+    Hungry: 0
+    HungryRandom: 0
+    Sleep: 0
+    SleepRandom: 0
+    Drive: 5
+    DriveRandom: 5
+    Social: 25
+    SocialRandom: 15
+    Work: 0
+    WorkRandom: 0
+  choiceDeltaC:
+    Hour: 3
+    Energy: 0
+    EnergyRandom: 0
+    Hungry: 0
+    HungryRandom: 0
+    Sleep: 0
+    SleepRandom: 0
+    Drive: 5
+    DriveRandom: 0
+    Social: 15
+    SocialRandom: 10
+    Work: 0
+    WorkRandom: 0

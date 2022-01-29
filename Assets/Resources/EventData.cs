@@ -12,4 +12,7 @@ public class EventData : ScriptableObject
     public EventData followUpEventChoiceA;
     public EventData followUpEventChoiceB;
     public EventData followUpEventChoiceC;
+    public BarDelta choiceDeltaA;
+    public BarDelta choiceDeltaB;
+    public BarDelta choiceDeltaC;
 }
