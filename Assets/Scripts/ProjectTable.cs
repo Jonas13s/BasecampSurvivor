@@ -6,9 +6,29 @@ using UnityEngine.UI;
 
 public class ProjectTable : MonoBehaviour
 {
+    
+    public static ProjectTable Instance;
+
     public ProjectsData ProjectDataValues;
     public Text ProjectTitleText;
     public Text ProjectDescriptionText;
+
+    private void Awake()
+    {
+        // Singleton
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+
+        // Initialize values
+        //ResetValues();
+
+        // Singleton
+        DontDestroyOnLoad(gameObject);        
+    }
 
     public void Spawn(int day, bool next)
     {
